@@ -13,6 +13,7 @@ function displayButtons() {
         var button = $('<button>');
         button.text(topics[i])
         button.appendTo('.buttons')
+        button.addClass('search-button')
         button.attr('data-search', topics[i])
         button.val(topics[i])
     }
@@ -32,10 +33,11 @@ function displayButtons() {
                     if(results[i].rating !=='r' && results[i].rating !== 'pg-13'){
                         console.log(results[i].images.fixed_height.url)
                         var gifDiv = $('<div>');
+                        gifDiv.addClass('gif-img')
                         var gifImg = $('<img>');
                         gifImg.attr('src',results[i].images.fixed_height.url)
                         gifDiv.append(gifImg)
-                        $('.gifs-container').prepend(gifDiv)
+                        $('.place-gifs').prepend(gifDiv)
                     }
 
                 }

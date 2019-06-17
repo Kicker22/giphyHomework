@@ -1,0 +1,32 @@
+body{
+    background: lightgreen;
+}
+.gifs-container{
+    border: 1px solid black;
+    background: transparent;
+}
+.row{
+    background: transparent;
+}
+.col{
+    background: transparent;
+}
+
+header{
+   background: lightpink;
+    border-bottom: 1px solid black;
+}
+
+.search-button{
+    margin-right: 1rem;
+}
+
+
+.gif-img{
+    box-shadow: 3px 3px black;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    float: left;
+}
