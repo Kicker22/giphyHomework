@@ -3,22 +3,30 @@ body{
 }
 .gifs-container{
     border: 1px solid black;
-    background: transparent;
+    background:lightsalmon;
+    height: fit-content;
+    clear: both;
 }
-.row{
-    background: transparent;
-}
-.col{
-    background: transparent;
+#gifTitle{
+
+    background: lightgreen;
+    text-decoration: underline;
 }
 
-header{
-   background: lightpink;
+.input-container{
+    float: right;
+    margin-right: 1rem;;
+}
+
+.pageTitle{
+   background: lightskyblue;
     border-bottom: 1px solid black;
 }
 
 .search-button{
+    margin-bottom: 1rem;
     margin-right: 1rem;
+    margin-left: 1rem;;
 }
 
 
@@ -29,4 +37,10 @@ header{
     margin-bottom: 1rem;
     margin-right: 1rem;
     float: left;
+}
+
+@media screen and(min-width:375px){
+    .pageTitle{
+        width: 100%;
+    }
 }
